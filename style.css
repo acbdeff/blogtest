@@ -25,10 +25,10 @@ p {
   text-indent: 20px;
 }
 
-.formula {
-  display: inline-block;
-}
-
 .inline {
   display: inline;
+}
+
+.formula {
+  display: inline-block;
 }
