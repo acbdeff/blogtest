@@ -29,6 +29,10 @@ p {
   display: inline;
 }
 
+.new-page {
+  page-break-after: always;
+}
+
 .formula {
   display: inline-block;
 }
