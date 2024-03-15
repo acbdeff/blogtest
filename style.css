@@ -28,3 +28,7 @@ p {
 .formula {
   display: inline-block;
 }
+
+.inline {
+  display: inline;
+}
