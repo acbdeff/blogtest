@@ -38,10 +38,10 @@ p {
 }
 
 table {
-  border: 1px solid black; /* задает границу таблицы */
+  border: 2px solid black; /* задает границу таблицы */
   border-collapse: collapse; /* объединяет границы ячеек */
 }
 th, td {
-  border: 1px solid black; /* задает границу для ячеек */
+  border: 2px solid black; /* задает границу для ячеек */
   padding: 5px; /* задает отступ внутри ячеек */
 }
