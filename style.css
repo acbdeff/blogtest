@@ -37,11 +37,12 @@ p {
   display: inline-block;
 }
 
-.table {
+.my-table {
   border: 2px solid black; /* задает границу таблицы */
   border-collapse: collapse; /* объединяет границы ячеек */
 }
-.th, td {
+
+.my-table th, .my-table td {
   border: 2px solid black; /* задает границу для ячеек */
   padding: 5px; /* задает отступ внутри ячеек */
 }
