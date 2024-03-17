@@ -3,6 +3,13 @@
   margin: 30px;
 }
 
+.MathJax {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  margin-right: 5px !important;
+  margin-left: 5px !important;
+}
+
 .list {
   margin-left: 40px;
 
