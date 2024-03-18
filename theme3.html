@@ -2,19 +2,129 @@
 <html class="content">
 <head>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"><script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <title>Тема 3</title>
+  <title>Глава III</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Тема 3</h1>
-    </header>
-    <main>
-        <p>Содержание темы 3.</p>
-        <p>1)<span class="formula">$$16,4: 8=2,05$$</span>;</p>
+  <header>
+    <h1 class="center">Глава III. Линейные уравнения</h1>
+  </header>
+  <main>
+    <p><i>Уравнением</i> называется равенство, содержащее переменные.</p>
+    <p>1)<span class="formula">$$$\left.\begin{array}{l}3 x-5=8, \\ 8 z+4 y=5\end{array}\right\} \quad$ уравнения
+$\left.\begin{array}{c}7+57=64 \\ 3 a+b\end{array}\right\} \quad$ не уравнения$$</span>;</p>
+    <p><i>Решением</i> (корнем) уравнения называется значение переменной, при котором уравнение обращается в верное числовое равенство.</p>
+    <p><i>Решить</i> уравнение – значит найти все решения данного уравнения или доказать, что их нет.</p>
+    <p>Уравнение вида<span class="formula">$$a x+b=0$$</span>, где x - переменная, a и b - некторые числа, называется <i>линейным уравнением</i>.</p>
+    <p>Чтобы решить уравнение первой степени с одним неизвестным, его приводят к виду<span class="formula">$$a x+b=0$$</span>. Для этого достаточно:</p>
+    <div>
+      <p>✓ освободить уравнение от дробей;</p>
+      <p>✓ раскрыть скобки;</p>
+      <p>✓ перенести все члены, содержащие неизвестное, в одну сторону уравнения, а известные члены – в другую и привести подобные.</p>
+    </div>
+    <p>Полученное уравнение будет равносильно исходному.</p>
+    <h4>Рассмотрим возможные случаи решения уравнения <span class="formula">$$a x+b=0$$</span>:</h4>
+     <p>если,<span class="formula">$$a \neq 0$$</span>, то уравнение будет иметь единственное решение:</p>
+    <p><span class="formula">$$x=-\frac{b}{a}$$</span>;</p>
+    <p>если,<span class="formula">$$a=0, \text { но } b \neq 0$$</span>то уравнение не имеет решения;</p>
+    <p>если,<span class="formula">$$a=0 \text { и } b=0$$</span>то любое число является решением этого уравнения, т.е. уравнение имеет бесконечное множество решений.</p>
+    <h4 class="inline">Пример 1.</h4> 
+    <p class="inline">Решите уравнение<span class="formula">$$2 x-3+4(x-1)=5$$</span>.</p>
+    <i>Решение.</i>
+    <p><span class="formula">$$
+\begin{aligned}
+& 2 x-3+4(x-1)=5 \\
+& 2 x-3+4 x-4=5 \\
+& 2 x+4 x=5+3+4 \\
+& 6 x=12 \\
+& x=2
+\end{aligned}
+$$
+
+Ответ: 2.$$</span>;</p>
+    <h4 class="inline">Пример 2.</h4> 
+    <p class="inline">Решите уравнение<span class="formula">$$2 x-3+2(x-1)=4(x-1)-7$$</span>.</p>
+    <i>Решение.</i>
+    <p><span class="formula">$$
+\begin{aligned}
+& 2 x-3+2(x-1)=4(x-1)-7 ; \\
+& 2 x-3+2 x-2=4 x-4-7 ; \\
+& 2 x+2 x-4 x=-4-7+3+2 ; \\
+& 0 \cdot x=-6
+\end{aligned}
+$$
+
+Ответ: решения нет.$$</span>;</p>
+    <h4 class="inline">Пример 3.</h4> 
+    <p class="inline">Решите уравнение<span class="formula">$$2 x+3-6(x-1)=4(1-x)+5$$</span></p>
+    <i>Решение.</i>
+    <p><span class="formula">$$
+\begin{aligned}
+& 2 x+3-6(x-1)=4(1-x)+5 ; \\
+& 2 x+3-6 x+6=4-4 x+5 ; \\
+& 2 x-6 x+4 x=4+5-3-6 ; \\
+& 0 \cdot x=0
+\end{aligned}
+$$
+
+Ответ: любое число.$$</span>;</p>
+    <h4 class="inline">Пример 4.</h4> 
+    <p class="inline">Решите уравнение<span class="formula">$$\frac{x+1}{2}+\frac{x-2}{4}=\frac{2 x+3}{3}-\frac{1}{2}$$</span></p>
+    <i>Решение.</i>
+    <p>Чтобы решить данное уравнение, необходимо освободить его от дробей. Это можно сделать двумя способами:</p>
+    <h4 class="inline">1 способ.</h4> 
+    <p class="inline">Умножим уравнение на наименьший общий знаменатель всех дробей (т.е. на НОК знаменателей) НОК(2,4,3)=12, получаем</p>
+    <p><span class="formula">$$\frac{12(x+1)}{2}+\frac{12(x-2)}{4}=\frac{12(2 x+3)}{3}-\frac{12}{2}$$</span>;</p>
+    <p><span class="formula">$$6(x+1)+3(x-2)=4(2 x+3)-6$$</span>;</p>
+    <h4 class="inline">2 способ.</h4> 
+    <p class="inline">Приведем дроби к наименьшему общему знаменателю:</p>
+    <p><span class="formula">$$\frac{6(x+1)}{12}+\frac{3(x-2)}{12}=\frac{4(2 x+3)}{12}-\frac{6}{12}$$</span>;</p>
+    <p>и умножим на этот знаменатель все уравнение</p>
+    <p><span class="formula">$$6(x+1)+3(x-2)=4(2 x+3)-6$$</span>;</p>
+    <p>Раскроем скобки и приведем подобные.</p>
+    <p><span class="formula">$$
+\begin{aligned}
+& 6 x+6+3 x-6=8 x+12-6 \\
+& 9 x=8 x+6 \\
+& 9 x-8 x=6 \\
+& x=6
+\end{aligned}
+$$
+
+Ответ: 6.$$</span>;</p>
+    <p class = "center"><i>Решите самостоятельно</i></p>
+    <div>
+      <div>
+        <p>1. Решите уравнение<span class="formula">$$0,5+2 x=1,5+3 x$$</span>;</p>
+        <p>2. Решите уравнение<span class="formula">$$\frac{1}{3} x+4=0$$</span>;</p>
+        <p>3. Решите уравнение<span class="formula">$$7-2(x-4,5)=6-4 x$$</span>;</p>
+        <p>4. Решите уравнение<span class="formula">$$\frac{x}{2}-\frac{x}{3}=2$$</span>;</p>
+        <p>5. Решите уравнение<span class="formula">$$11 x+5=5 x-12-4-x$$</span>;</p>
+        <p>6. Решите уравнение<span class="formula">$$(x+2)^2-5(x-4)=(x-6)(x+6)$$</span>;</p>
+        <p>7. Решите уравнение<span class="formula">$$6-\frac{x-1}{2}=\frac{3-x}{2}-\frac{x-2}{3}$$</span>;</p>
+        <p>8. Решите уравнение<span class="formula">$$\frac{2}{3}(x+3)=\frac{6+2 x}{3}$$</span>;</p>
+        <p>9. Решите уравнение<span class="formula">$$0,2(x-1)+0,5(3 x-9)=\frac{x}{3}-2$$</span>;</p>
+        <p>10. Решите уравнение<span class="formula">$$\frac{3 x-11}{4}-\frac{3-5 x}{8}=\frac{x+6}{2}$$</span>;</p>
+        <p>11. Решите уравнение<span class="formula">$$5-3(x-2(x-2(x-2)))=2$$</span>;</p>
+        <p>12. Решите уравнение<span class="formula">$$\frac{x}{2}+\frac{x}{6}+\frac{x}{12}+\frac{x}{20}+\frac{x}{30}+\frac{x}{42}=-6$$</span>;</p>
+        <p>13. Решите уравнение<span class="formula">$$\frac{8}{9} x+\frac{34}{72}-\frac{9}{8} x=0$$</span>;</p>
+        <p>14. Решите уравнение<span class="formula">$$\frac{3 x}{0,2}=\frac{2 \frac{1}{2}}{3 \frac{1}{3}}$$</span>;</p>
+        <p>15. Решите уравнение<span class="formula">$$\frac{3 x+6}{2}+\frac{7 x-14}{3}=\frac{x+1}{9}$$</span>;</p>
+        <p>16. Решите уравнение<span class="formula">$$\frac{3 x-1}{5}-\frac{2 x+6}{8}=5$$</span>;</p>
+        <p>17. Решите уравнение<span class="formula">$$\frac{x-2}{5}-\frac{5-2 x}{4}+\frac{4 x-1}{20}=4-x$$</span>;</p>
+        <p>18. Решите уравнение<span class="formula">$$$$</span>;</p>
+        <p>19. Решите уравнение<span class="formula">$$$$</span>;</p>
+        <p>20. Решите уравнение<span class="formula">$$$$</span>;</p>
+        <p>21. Решите уравнение<span class="formula">$$$$</span>;</p>
+        
+      </div>
+    </div>
     </main>
-    <footer>
-        <p>© 2024 Методическое пособие | <a href="index.html">На главную</a></p>
-    </footer>
+    <p><span class="formula">$$$$</span>;</p>
+    <h4 class="inline"></h4> 
+    <p class="inline"></p>
+  <footer>
+    <p>© 2024 Методическое пособие | <a href="index.html">На главную</a></p>
+  </footer>
 </body>
 </html>
